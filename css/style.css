@@ -57,6 +57,14 @@ body{
 	transform:scale(1.25);
 }
 
+ #demo {
+    color: #FFF;
+    font-family: Georgia;
+    font-size: 20px;
+    height:140px;
+    width: 500px;
+  }
+
 h1{
 	margin :0;
 }
@@ -71,8 +79,7 @@ h3{
 	font-size: 16px;
 }
 
-
-#loco {
+/*#loco {
 	border-radius: 3%;
 	margin:5% 0%;
 	background: #ccc;
@@ -82,10 +89,10 @@ h3{
 
 #loco:hover, #loco.hover_effect {
 	transform: rotate(720deg) scale(1,2);
-}
+}*/
 
 .logos{
-	font-size: 60px;
+	font-size: 100px;
 }
 
 .proyectos{
@@ -106,6 +113,6 @@ h3{
 
 }
 
-.iconos_social{
+i{
 	color:#000;
 }
