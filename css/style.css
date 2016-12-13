@@ -3,6 +3,24 @@ body{
 	padding: 0;
 	font-family: 'Slabo 27px', serif;
 	line-height: 2;
+	background: #DFDBD1;
+}
+
+.narbar{
+	background-color: #1D1D1D;
+	border: 1px solid #8F7C4F;
+}
+
+.narbar a{
+	color:#9C6B00;
+}
+
+.side-nav{
+	background-color: #1D1D1D;
+}
+
+.side-nav a{
+	color:#9C6B00;
 }
 
 .row{
@@ -11,18 +29,26 @@ body{
 
 #about{
 	padding: 10%;
+	background-color: #DFDBD1;
+	border: 1px solid #8F7C4F;
 }
 
 #habilidades{
-	padding: 10%;
+	padding: 10% 10% 0% 10%;
+	background-color: #1D1D1D;
+	border: 1px solid #8F7C4F;
 }
 
 #proyectos{
 	padding: 10%;
+	background-color: #DFDBD1;
+	border: 1px solid #8F7C4F;
 }
 
 #contacto{
 	padding: 6%;
+	background: #1D1D1D;
+	border: 1px solid #8F7C4F;
 }
 
 .portada{
@@ -30,10 +56,14 @@ body{
 	width: 100%;
 	background-position: center;
 	background-repeat:no-repeat;
-
+	border: 1px solid #8F7C4F;
 	padding: 10%;
 	color: #fff;
 	text-shadow: 2px 2px #000;
+}
+
+.portada h3{
+	color:#fff;
 }
 
 .portada:hover{
@@ -43,7 +73,7 @@ body{
 .circle{
 	width: 80%;
 	margin-left: 12%;
-	border: 2px solid #fff;
+	border: 2px solid #8F7C4F;;
 	padding: 2%;
 }
 
@@ -70,16 +100,16 @@ h1{
 }
 
 h3{
-	color: #fff;
-	text-shadow: 2px 2px #000;
+	color: #8F7C4F;
+
 }
 
 #about p{
-	color: #FFF;
+	color:#000;;
 	font-size: 16px;
 }
 
-/*#loco {
+#loco {
 	border-radius: 3%;
 	margin:5% 0%;
 	background: #ccc;
@@ -89,7 +119,7 @@ h3{
 
 #loco:hover, #loco.hover_effect {
 	transform: rotate(720deg) scale(1,2);
-}*/
+}
 
 .logos{
 	font-size: 100px;
@@ -99,13 +129,21 @@ h3{
 	margin:5% 0;
 }
 
+.card{
+	background: #8F7C4F;
+}
+
+.card-reveal{
+	background: #8F7C4F;
+}
+
 
 .contacto{
 	font-size: 16px;
 }
 
 #contacto p{
-	color: #fff;
+	color: #8F7C4F;
 }
 
 .social{
@@ -114,5 +152,5 @@ h3{
 }
 
 i{
-	color:#000;
+	color:#8F7C4F;
 }
