@@ -1,9 +1,12 @@
 body{
 	margin: 0 auto;
 	padding: 0;
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Space Mono', monospace;
 	line-height: 2;
 	background: #DFDBD1;
+}
+.container{
+	width: 100%;
 }
 
 .narbar{
@@ -60,6 +63,7 @@ body{
 	padding: 10%;
 	color: #fff;
 	text-shadow: 2px 2px #000;
+	font-family: 'Aref Ruqaa', serif;
 }
 
 .portada h3{
@@ -67,7 +71,7 @@ body{
 }
 
 .portada:hover{
-	background-image: url(../img/DSC_0034.jpg);
+	background-image: url(../img/IMG_20160201_102929.jpg);
 }
 
 .circle{
@@ -101,7 +105,7 @@ h1{
 
 h3{
 	color: #8F7C4F;
-
+	font-family: 'Aref Ruqaa', serif;
 }
 
 #about p{
@@ -137,6 +141,19 @@ h3{
 	background: #8F7C4F;
 }
 
+.card-content a{
+	color:#000;
+	font-size: 18px;
+}
+
+.btn-large{
+	background: #8F7C4F;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.btn-large:hover{
+	background: #8F7C4F;
+}
 
 .contacto{
 	font-size: 16px;
