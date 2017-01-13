@@ -1,0 +1,25 @@
+.slider {
+	.slides{
+		li{
+			height:500px;
+		}	
+	}
+	.indicators {
+		.indicator-item{
+			background-color: $color_fondo_2;		
+		}
+		& .indicator-item.active {
+			background-color: $color_fondo_2;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.slider{
+		.slides{
+			li{
+				height:450px;
+			}
+		}
+	}
+}

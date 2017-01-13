@@ -1,0 +1,44 @@
+#proyectos{
+	padding:10%;
+	h3{
+		color:$color_fondo_1;
+	}
+}
+
+.card .card-content{
+	padding:0%;
+}
+
+.ver_mas{
+	padding-bottom:1%;
+	a{
+		color:$color_fondo_1;
+	}
+}
+
+.card{
+	border-radius:12px;
+	padding:5%;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	&:hover {
+		-border-radius:50%;
+		box-shadow: 0 20px 6px -6px grey;
+	}
+}
+
+.btn-floating{
+	background-color:$color_fondo_1;
+}
+
+.card-reveal{
+	.btn-floating{
+		background-color:$color_fondo_1;
+	}
+	li{
+		padding:2%;
+		&:hover{
+			border-radius:20px;
+		}
+	}
+}

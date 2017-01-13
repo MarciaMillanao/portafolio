@@ -1,0 +1,23 @@
+#contacto{
+	background-color:$color_fondo_1;
+	padding:5%;
+	p{
+		color:$color_fondo_2;
+		font-weight:bolder;
+	}
+}
+
+i{
+	color:$color_fondo_2;
+}
+
+.iconos-contacto:hover{
+	-webkit-transform:scale(1.35);
+	-moz-transform:scale(1.3535);
+	-ms-transform:scale(1.35);
+	-o-transform:scale(1.35);
+	transform:scale(1.35);
+	i{
+		color:$color_fondo_2;
+	}
+}

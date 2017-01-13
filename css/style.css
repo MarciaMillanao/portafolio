@@ -8,7 +8,7 @@ body{
 
 
 .narbar{
-	background-color: #1D1D1D;
+	background-color: ;
 	border: 1px solid #8F7C4F;
 }
 
@@ -33,7 +33,7 @@ body{
 
 #about{
 	padding: 10% 0%;
-	background-color: #DFDBD1;
+	background-color:;
 	border: 1px solid #8F7C4F;
 }
 
@@ -53,26 +53,6 @@ body{
 	padding: 6%;
 	background: #1D1D1D;
 	border: 1px solid #8F7C4F;
-}
-
-.portada{
-	background-image: url(../img/DSC_0252.jpg);
-	width: 100%;
-	background-position: center;
-	background-repeat:no-repeat;
-	border: 1px solid #8F7C4F;
-	padding: 10%;
-	color: #fff;
-	text-shadow: 2px 2px #000;
-	font-family: 'Aref Ruqaa', serif;
-}
-
-.portada h3{
-	color:#fff;
-}
-
-.portada:hover{
-	background-image: url(../img/IMG_20160201_102929.jpg);
 }
 
 .circle{
@@ -170,5 +150,5 @@ h3{
 }
 
 i{
-	color:#8F7C4F;
+	color:;
 }

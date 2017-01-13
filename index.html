@@ -4,29 +4,29 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portafolio Marcia Millanao</title>
-	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lemonada|Nunito" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-	<link rel="stylesheet" type="text/css" href="css/materialize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
 </head>
 <body>
 
-		<header id="presentacion"><!--banner frase-->
-		<div class=" navbar-fixed">
+	<header id="presentacion"><!--banner frase-->
+	<div>
+		<div >
 			<nav class="narbar">
 				<div class="nav-wrapper">
-					<!--<img src="img/logo_1.png" class="logo" alt="">-->
-					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-2x"></i></a>
 					<ul class="right hide-on-med-and-down">
-						<li><a href="#inicio">Inicio</a></li>
+						<li><a href="#presentacion">Inicio</a></li>
 						<li><a href="#about">Sobre mi</a></li>
 						<li><a href="#habilidades">Habilidades</a></li>
 						<li><a href="#proyectos">Proyectos</a></li>
 						<li><a href="#contacto">Contacto</a></li>
 					</ul>
 					<ul class="side-nav" id="mobile-demo">
-						<li><a href="#inicio">Inicio</a></li>
+						<li><a href="#presentacion">Inicio</a></li>
 						<li><a href="#about">Sobre mi</a></li>
 						<li><a href="#habilidades">Habilidades</a></li>
 						<li><a href="#proyectos">Proyectos</a></li>
@@ -34,36 +34,58 @@
 					</ul>
 				</div>
 			</nav>	
-			</div>			
-		</header>
-
-		<section id="inicio" class="portada"><!--secction sobre mi-->
-			<div class="container  sobre">
-				<div class="row ">
-					<div class="col s12">
-						<h1 class="center-align nombre">Marcia Millanao Yañez</h1>
-						<h3 class="center-align"> Desarrolladora Web Front-End </h3>
+		</div>
+		</div>			
+	</header>
+	<section>
+		<div class="slider">
+			<ul class="slides">
+				<li>
+					<img src="img/imagen_1.jpg">
+					<div class="caption center-align">
+						<h3>Marcia Millanao</h3>
+						<h5 class="light grey-text text-lighten-3">Desarrolladora Web Front-End.</h5>
 					</div>
+				</li>
+				<li>
+					<img src="img/imagen_0.jpg">
+					<div class="caption left-align">
+						<h3>Marcia Millanao</h3>
+						<h5 class="light grey-text text-lighten-3">Desarrolladora Web Front-End.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="img/imagen_3.jpg"> 
+					<div class="caption right-align">
+						<h3>Marcia Millanao</h3>
+						<h5 class="light grey-text text-lighten-3">Desarrolladora Web Front-End.</h5>
+					</div>
+				</li>
+				<li>
+					<img src="img/imagen_2.jpg"> 	<div class="caption center-align">
+					<h3>Marcia Millanao</h3>
+					<h5 class="light grey-text text-lighten-3">Desarrolladora Web Front-End.</h5>
 				</div>
-			</div>
-		</section>
-
-		<section id="about"><!--secction sobre mi-->
-		<div class="container">
+			</li>
+			</ul>
+		</div>
+	</section>
+	<section id="about"><!--secction sobre mi-->
+		<div>
 			<div class="row">
 				<div class="col s12 m5 l5">
-					<img src="img/IMG_20160201_111354.jpg" class="circle responsive-img imagen-about" alt="">
+					<img src="img/marcia.jpg" class="circle responsive-img imagen-about" alt="">
 				</div>
 				<div class="col s12 m5 l7">
-					<h3 class="center-align">Sobre mi</h3>
-					<p class="center-align">Soy Marcia Millanao, tengo 32 años, me gustar codear, investigar, aprender, trabajar en equipo. Tengo un hijo de 3 años, con el cual nos gusta pasear, leer, escuchar música, jugar fútbol.</p>
+					<h3 class="center-align about">Sobre mí</h3>
+					<p class="center-align about">Soy Marcia Millanao, tengo 32 años, me gustar codear, investigar, aprender, trabajar en equipo. Tengo un hijo de 3 años con el cual nos gusta pasear, leer, escuchar música y jugar fútbol.</p>
 				</div>			
 			</div>
-			</div>
-		</section>
+		</div>
+	</section>
 
-		<section id="habilidades"><!--seccion habilidades-->
-		<div class="container">
+	<section id="habilidades"><!--seccion habilidades-->
+		<div>
 			<div class="row">
 				<div class="col s12 m12 l12">
 					<h3 class="center-align">Habilidades</h3>
@@ -77,12 +99,14 @@
 				<a class="carousel-item" href="#five!"><i class="devicon-javascript-plain logos"></i></a>
 				<a class="carousel-item" href="#six!"><i class="devicon-jquery-plain-wordmark logos"></i></a>
 				<a class="carousel-item" href="#seven!"><i class="devicon-git-plain-wordmark logos"></i></a>
+				<a class="carousel-item" href="#seven!"><i class="devicon-sass-original logos"></i></a>
+				<a class="carousel-item" href="#seven!"><i class="devicon-trello-plain-wordmark logos"></i></a>
 			</div>
 		</div>
-		</section>
+	</section>
 
-		<section id="proyectos"><!--seccion proyectos-->
-		<div class="container">
+	<section id="proyectos"><!--seccion proyectos-->
+		<div>
 			<div class="row">
 				<h3 class="center-align">Proyectos</h3>
 			</div>
@@ -94,7 +118,7 @@
 						</div>
 						<div class="card-content">
 							<p class="card-title activator grey-text text-darken-4 center-align">Mini</p>
-							<p><a href="https://marciamillanao.github.io/mini/#">Ver más</a></p>
+							<p class="ver_mas center-align"><a href="https://marciamillanao.github.io/mini/#" target="_blank">Ver demo</a></p>
 						</div>
 						<div class="card-reveal">
 							<p class="card-title grey-text text-darken-4 center-align">Mini<a class="right btn-floating btn-large waves-effect waves-light"><i class="fa fa-times" aria-hidden="true"></i></a></p>
@@ -114,7 +138,7 @@
 						</div>
 						<div class="card-content">
 							<p class="card-title activator grey-text text-darken-4 center-align">Bunny Love</p>
-							<p><a href="https://marciamillanao.github.io/bunny-love/">Ver más</a></p>
+							<p class="ver_mas center-align"><a href="https://marciamillanao.github.io/bunny-love/" target="_blank">Ver demo</a></p>
 						</div>
 						<div class="card-reveal">
 							<p class="card-title grey-text text-darken-4 center-align">Bunny Love<a class="right btn-floating btn-large waves-effect waves-light"><i class="fa fa-times" aria-hidden="true"></i></a></p>
@@ -134,7 +158,7 @@
 						</div>
 						<div class="card-content">
 							<p class="card-title activator grey-text text-darken-4 center-align">Trello</p>
-							<p><a href="https://marciamillanao.github.io/trello/">Ver más</a></p>
+							<p class="ver_mas center-align"><a href="https://marciamillanao.github.io/trello/" target="_blank">Ver demo</a></p>
 						</div>
 						<div class="card-reveal">
 							<p class="card-title grey-text text-darken-4 center-align">Trello<a class="right btn-floating btn-large waves-effect waves-light"><i class="fa fa-times" aria-hidden="true"></i></a></p>
@@ -150,9 +174,9 @@
 				</div>	
 			</div>
 		</div>
-		</section>
+	</section>
 
-		<footer id="contacto">
+	<footer id="contacto">
 		<div class="container">
 			<div class="row contacto">
 				<div class="col s12 m6 l6 center-align">
@@ -164,19 +188,17 @@
 			</div>
 
 			<div class="row social">
-				<div class="col offset-s2 m3 l3"></div>
-				<div class="col s2 m2 l2 center-align">
-					<a href="https://twitter.com/Marcia_Millanao"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+				<div class="col offset-s3 m4 l4"></div>
+
+				<div class="col s2 m2 l2 center-align iconos-contacto">
+					<a href="https://www.linkedin.com/in/marcia-millanao-a55990134?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
 				</div>
-				<div class="col s2 m2 l2 center-align">
-					<a href="https://www.linkedin.com/in/marcia-millanao-a55990134?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-				</div>
-				<div class="col s2 m2 l2 center-align">
-					<a href="https://github.com/MarciaMillanao"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+				<div class="col s2 m2 l2 center-align iconos-contacto">
+					<a href="https://github.com/MarciaMillanao" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
 				</div>
 			</div>
 		</div>
-		</footer>
+	</footer>
 
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>

@@ -1,0 +1,30 @@
+.narbar{
+	background-color:$color_fondo_1;
+}
+
+nav{
+	ul{
+		a{
+			color:$color_fondo_2;
+			font-weight:bolder;
+
+		}
+	}
+}
+
+
+li:hover{
+	background-color:#7D7171;
+	a{
+		font-size:18px;
+	}
+}
+
+ul:not(.browser-default){
+	background-color:$color_fondo_1;
+	a{
+		color:$color_fondo_2;
+		font-weight:bolder;
+	}
+	
+}

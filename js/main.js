@@ -1,6 +1,22 @@
 $(document).ready(function(){
-	$(".button-collapse").sideNav(); //navbar
+	$(".button-collapse").sideNav({//navbar
+	menuWidth: 170, 
+    edge: 'left', 
+	}); 
 });
+
+$(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+
+// Pause slider
+$('.slider').slider('pause');
+// Start slider
+$('.slider').slider('start');
+// Next slide
+$('.slider').slider('next');
+// Previous slide
+$('.slider').slider('prev'); 
 
 
 $(document).ready(function(){  //habilidades
